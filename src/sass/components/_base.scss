@@ -1,0 +1,44 @@
+* {
+  margin: unset;
+  padding: unset;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: map-get($colors, light);
+}
+
+header {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+  }
+}
+
+main {
+  padding: 10rem 0rem;
+
+  h2 {
+    color: map-get($colors, primary);
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    text-transform: uppercase;
+  }
+}
+
+footer {
+  padding: 1rem;
+  border-top: 1px solid black;
+
+  h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+  }
+}
